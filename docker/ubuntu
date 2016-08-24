@@ -1,0 +1,5 @@
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y g++
+RUN apt-get install -y python3 python3-numpy python3-setuptools \
+            python3-pytest python3-pandas python3-pip
+
